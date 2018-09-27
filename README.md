@@ -51,7 +51,7 @@
 	如何给对象定义get/set属性
 		在创建对象时指定: get name () {return xxx} / set name (value) {}
 	  	对象创建之后指定: Object.defineProperty(obj, age, {get(){}, set(value){}})
-
+    getter/setter
 ## 5). watch
 	包含多个属性监视的对象
 	分为一般监视和深度监视
